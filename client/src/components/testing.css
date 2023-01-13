@@ -1,0 +1,25 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.tooltip {
+    display: none;
+    flex-direction: column;
+    width: 100px;
+    position: absolute;
+    top: 18px;
+    left: 0px;
+}
+
+.line {
+    position: relative;
+}
+
+.line:hover {
+    color: black !important;
+}
+
+.line:hover>.tooltip {
+    display: flex;
+}
